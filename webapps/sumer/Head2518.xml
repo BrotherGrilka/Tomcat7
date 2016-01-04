@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "ota-header-2005-07-06.dtd">
+<TEI.2>
+<teiHeader type="ISBD(ER)">
+<fileDesc>
+<titleStmt>
+<title type="main">The Electronic Text Corpus of Sumerian Literature. Revised edition.</title>
+<author>Black, Jeremt</author>
+<author>Cunningham, Graham</author>
+<author>Ebeling, Jarle</author>
+<author>Fl&#252;ckiger-Hawker, Esther</author>
+<author>Robson, Eleanor</author>
+
+<funder>Arts and Humanities Research Council (AHRC)</funder>
+<funder>Leverhulme Trust</funder>
+<funder>University of Oxford</funder>
+<funder>British Academy and Hungarian Academy of Sciences</funder>
+
+<respStmt><resp>Contributed source material</resp>
+<name>Alster, Bendt</name>
+<name>Cavigneaux, Antoine</name>
+<name>Farber, Gertrud</name>
+<name>George, Andrew</name>
+<name>Haayer, Geerd</name>
+<name>Jagersma, Bram</name>
+<name>Krecher, Joachim</name>
+<name>Ludwig, Marie-Christine</name>
+<name>Michalowski, Piotr</name>
+<name>Roth, Martha</name>
+<name>Sefati, Yitschak</name>
+<name>Vanstiphout, Herman</name>
+<name>Veldhuis, Niek</name>
+<name>Volk, Konrad</name>
+<name>Walker, Christopher</name>
+<name>Wilcke, Claus</name>
+<name>Zgoll, Annette</name>
+<resp>Contributed source material and initial catalogue</resp>
+<name>Civil, Miguel</name>
+<resp>Contributed source material, technical advice and linguistic annotation</resp>
+<name>Tinney, Steve</name>
+<resp>Updated bibliographic records</resp>
+<name>Head, Ronan</name>
+<name>L&#246;hnert, Anne</name>
+<name>Ohgama, Naoko</name>
+<name>Roberts, Faimon</name>
+
+</respStmt>
+</titleStmt>
+<editionStmt><edition></edition>
+</editionStmt>
+<extent>
+<seg type="designation">CollectionText</seg>
+<seg type="size">812 files : ca. 22.4 MB</seg>
+</extent>
+<publicationStmt>
+<authority>deposited by<name type="person">Cunningham, Graham</name>
+<name type="institution">Faculty of Oriental Studies, University of Oxford</name>
+<name type="place">Oxford</name>
+<address><addrLine>Faculty of Oriental Studies</addrLine>
+<addrLine>University of Oxford</addrLine>
+<addrLine>Pusey Lane</addrLine>
+<addrLine>Oxford</addrLine>
+<addrLine>OX1 2LE</addrLine>
+<addrLine><name type="email">graham.cunningham@orinst.ox.ac.uk</name>
+</addrLine>
+</address>   
+<date>2006-10-25</date>
+</authority>
+<distributor>
+<name key="ahds" type="organisation">Arts and Humanities Data Service</name>
+<name type="place">London</name>
+<address>
+<addrLine><name key="ahds" type="organisation">AHDS</name></addrLine>
+<addrLine>26-29 Drury Lane</addrLine>
+<addrLine>3rd Floor</addrLine>
+<addrLine>London</addrLine>
+ <addrLine>WC2B 5RL</addrLine>
+<addrLine><name type="email">info@ahds.ac.uk</name>
+</addrLine>
+</address>
+</distributor>
+<idno type="ota">2518</idno>
+<availability status="restricted" n="1"><p>Available for non-commercial use on condition that this header is included in its entirety with any copy distributed. Registration or request via our order form is required.</p></availability>
+<date>2006-10</date>
+</publicationStmt>
+<notesStmt>
+<note>Title proper taken from AHDS Catalogue Form</note>
+<note type="summary">The Electronic Text Corpus of Sumerian Literature (ETCSL) comprises transliterations and English translations of 394 compositions attested on sources dating to the period from approximately 2100 to 1700 BCE. The compositions are divided into seven categories: ancient literary catalogues; narrative compositions; royal praise poetry and hymns to deities on behalf of rulers; literary letters and letter-prayers; divine and temple hymns; proverbs and proverb collections; and a more general category including compositions such as debates, dialogues and riddles. The numbering of the compositions within the corpus follows Miguel Civil's unpublished catalogue of Sumerian literature (etcslfullcat.html).
+Files with an initial c are composite transliterations (a reconstructed text editorially assembled from the extant exemplars but including substantive variants) in which the cuneiform signs are represented in the Roman alphabet. Files with an initial t are translations. The composite files include full references for the cuneiform sources and author-date references for the secondary sources (detailed in bibliography.xml). The composite and translation files are in XML and have been annotated according to the TEI guidelines. In terms of linguistic information, each word form in the composite transliterations has been assigned to a lexeme which is specified by a citation form, word class information and basic English translation.
+</note>
+<note>Black, Jeremy A., Graham Cunningham, Eleanor Robson, and G&#225;bor Z&#243;lyomi. 2004. 'The Literature of Ancient Sumer'. Oxford: OUP.</note>
+<note>Ebeling, Jarle and Graham Cunningham (eds). 2007. 'Analysing Literary Sumerian: Corpus-based Approaches'. London: Equinox.</note>
+<note></note>
+<note type="nb">This edition of the ETCSL is an expansion, revision and enhancement of the first-time deposit of the corpus (LLL-2424).</note>
+</notesStmt>
+<sourceDesc>
+<biblFull>
+<titleStmt>
+<title></title>
+</titleStmt>
+<publicationStmt><publisher></publisher>
+<pubPlace></pubPlace>
+<idno type="callNo"></idno>
+</publicationStmt>
+</biblFull>
+</sourceDesc>
+</fileDesc>
+<encodingDesc><projectDesc>
+<p>During the last grant-period the Electronic Text Corpus of Sumerian Literature (ETCSL) project had three principal aims. The first was to create a comprehensive and representative corpus of Sumerian literary compositions attested on sources dating to the period from approximately 2100 to 1700 BCE. The second was annotation of the corpus enabling it to be published online in a searchable format modelled on the electronic corpora for modern languages. The third was quantitative analysis of the corpus based on this annotation and techniques developed within corpus linguistics. Hitherto, relatively few of these Sumerian compositions, recorded on clay tablets in the cuneiform (wedge-shaped) script, have been published in satisfactory modern editions, and many have remained inaccessible even to scholars. The literature is virtually unknown to a broader audience; yet this is the oldest human poetry which can be read, and represents the literary production of the civilisation which first developed writing. By oral and written transmissions through Akkadian and other later languages of the ancient Near East, this literature left its impression on Greek, Hebrew, Arabic and other subsequent cultures in world history.
+</p></projectDesc>
+<editorialDecl>
+<p>Encoding format: TEI XML</p>
+</editorialDecl>
+<tagsDecl>
+</tagsDecl>
+<refsDecl><p></p>
+</refsDecl>
+<classDecl><taxonomy id="OTASH"><bibl>Oxford Text Archive Subject Headings</bibl>
+</taxonomy>
+<taxonomy id="LCSH"><bibl>Library of Congress Subject Headings</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<dateRange from="1997-01-01" to="2006-12-31" exact="none">1997-2006
+</dateRange>
+</creation>
+<langUsage>
+<language id="eng">English</language>
+<language id="sux">Sumerian</language>
+</langUsage>
+<textClass>
+<keywords scheme="OTASH"><term type="genre">Linguistic corpora</term>
+</keywords>
+<keywords scheme="LCSH"><term type="genre">Linguistics</term>
+</keywords>
+<keywords scheme="LCSH"><term type="genre">Sumerian literature</term>
+</keywords>
+<keywords scheme="LCSH"><term type="genre">Cuneiform inscriptions, Sumerian</term>
+</keywords>
+<keywords scheme="LCSH"><term type="genre">Poetry, Ancient</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change><date>2006-11-14</date>
+<respStmt><name>Simpson, Greg</name>
+<resp>cataloguer</resp>
+</respStmt>
+<item>TEIXML header composed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body><p></p>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$BLOJSOM_BLOG.getBlogLanguage()">
+	<head>
+		#parse("sumerbig-head.vm")
+	</head>
+	<body>
+		<div id="main">
+			<!-- Header -->
+			#parse("sumerbig-header.vm")
+			<!-- Content -->
+			<div id="contentBodyLeft">
+				<div id="content">
+					<!-- Entries -->
+					<div id="entries">
+						#set($entryDate = "")
+						#set($totalEntries = 0)
+						#foreach($entry in $BLOJSOM_ENTRIES)
+							#parse("sumerbig-entry.vm")
+						#end
+					</div>
+					<div id="column">
+						#parse("sumerbig-column.vm")
+					</div>
+				</div>
+				<div class="clear">&nbsp;</div>
+			</div>
+			<!-- Footer-->
+			#parse("sumerbig-footer.vm")
+		</div>
+	</body>
+</html>
+

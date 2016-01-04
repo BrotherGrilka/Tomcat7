@@ -1,0 +1,580 @@
+Jan 2, 2016 1:29:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 2, 2016 1:29:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 2, 2016 4:16:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 2, 2016 4:16:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 2, 2016 4:16:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@13ce64f6')
+Jan 2, 2016 4:16:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet action as unavailable
+Jan 2, 2016 4:16:07 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /sumer threw load() exception
+java.lang.ClassNotFoundException: org.apache.struts.action.ActionServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:532)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:514)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:142)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1120)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1678)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 5:34:29 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [/index.jsp (line: 73, column: 91) equal symbol expected] with root cause
+org.apache.jasper.JasperException: /index.jsp (line: 73, column: 91) equal symbol expected
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:443)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:89)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:217)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:162)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:153)
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1236)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1452)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:242)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:102)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 5:35:00 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [/index.jsp (line: 73, column: 90) equal symbol expected] with root cause
+org.apache.jasper.JasperException: /index.jsp (line: 73, column: 90) equal symbol expected
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:443)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:89)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:217)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:162)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:153)
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1236)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1452)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:242)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:102)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 5:35:51 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet guaposTransformation threw exception
+java.lang.IllegalArgumentException: [=] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 5:35:51 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [javax.servlet.ServletException: javax.servlet.jsp.JspException: java.lang.IllegalArgumentException: [=] is not a hexadecimal digit] with root cause
+java.lang.IllegalArgumentException: [=] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 5:36:01 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet guaposTransformation threw exception
+java.lang.IllegalArgumentException: [ ] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 5:36:01 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [javax.servlet.ServletException: javax.servlet.jsp.JspException: java.lang.IllegalArgumentException: [ ] is not a hexadecimal digit] with root cause
+java.lang.IllegalArgumentException: [ ] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 8:36:43 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet guaposTransformation threw exception
+java.lang.IllegalArgumentException: [=] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 8:36:43 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [javax.servlet.ServletException: javax.servlet.jsp.JspException: java.lang.IllegalArgumentException: [=] is not a hexadecimal digit] with root cause
+java.lang.IllegalArgumentException: [=] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 8:36:56 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet guaposTransformation threw exception
+java.lang.IllegalArgumentException: [ ] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 8:36:56 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [javax.servlet.ServletException: javax.servlet.jsp.JspException: java.lang.IllegalArgumentException: [ ] is not a hexadecimal digit] with root cause
+java.lang.IllegalArgumentException: [ ] is not a hexadecimal digit
+	at org.apache.catalina.util.RequestUtil.convertHexDigit(RequestUtil.java:316)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:400)
+	at org.apache.catalina.util.RequestUtil.parseParameters(RequestUtil.java:153)
+	at org.apache.catalina.core.ApplicationHttpRequest.mergeParameters(ApplicationHttpRequest.java:894)
+	at org.apache.catalina.core.ApplicationHttpRequest.parseParameters(ApplicationHttpRequest.java:756)
+	at org.apache.catalina.core.ApplicationHttpRequest.getParameter(ApplicationHttpRequest.java:367)
+	at MannysXSLTServlet.doGet(MannysXSLTServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:314)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:171)
+	at org.apache.jsp.index_jsp._jspx_meth_c_005fimport_005f0(index_jsp.java:347)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Jan 2, 2016 8:47:09 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/sumer] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 38 in the jsp file: /index.jsp
+request cannot be resolved
+35: 		</div>
+36: 
+37: <%!
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+
+
+An error occurred at line: 39 in the jsp file: /index.jsp
+request cannot be resolved
+36: 
+37: <%!
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+42: 	{
+
+
+An error occurred at line: 39 in the jsp file: /index.jsp
+Syntax error on token ";", { expected after this token
+36: 
+37: <%!
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+42: 	{
+
+
+An error occurred at line: 41 in the jsp file: /index.jsp
+Syntax error on token(s), misplaced construct(s)
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+42: 	{
+43: 		yevvysXML = "c.1.1.1.xml";
+44: 		mannysXML = "t.1.1.1.xml";
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 38 in the jsp file: /index.jsp
+request cannot be resolved
+35: 		</div>
+36: 
+37: <%!
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+
+
+An error occurred at line: 39 in the jsp file: /index.jsp
+request cannot be resolved
+36: 
+37: <%!
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+42: 	{
+
+
+An error occurred at line: 39 in the jsp file: /index.jsp
+Syntax error on token ";", { expected after this token
+36: 
+37: <%!
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+42: 	{
+
+
+An error occurred at line: 41 in the jsp file: /index.jsp
+Syntax error on token(s), misplaced construct(s)
+38: 	String yevvysXML = request.getParameter("Transliteration");
+39: 	String mannysXML = request.getParameter("Translation");
+40: 
+41: 	if (yevvysXML == null && mannysXML == null)
+42: 	{
+43: 		yevvysXML = "c.1.1.1.xml";
+44: 		mannysXML = "t.1.1.1.xml";
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)

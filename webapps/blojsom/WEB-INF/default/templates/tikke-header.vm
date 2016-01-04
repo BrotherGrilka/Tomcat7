@@ -1,0 +1,24 @@
+
+			<div id="header">
+				<div id="name">
+					<h1><a href="$BLOJSOM_BLOG.getBlogURL()" title="$BLOJSOM_BLOG.getBlogName()">$BLOJSOM_BLOG.getBlogName()</a></h1>
+					#if($BLOJSOM_BLOG.getBlogDescription())<h2>$BLOJSOM_BLOG.getBlogDescription()</h2>#end
+
+				</div>
+				<div id="controls">
+					<form id="searchform" method="post" action=".">
+						<p>
+							<input id="searchfield" type="text" name="query" value="" />
+							<a href="document.searchform.submit()"><span>:Search</span></a>
+						</p>
+					</form>
+					<div id="switcher">
+						<script type="text/javascript">
+							writeSwitcher();
+						</script>
+						<noscript>
+							<p></p>
+						</noscript>
+					</div>
+				</div>
+			</div>

@@ -1,0 +1,215 @@
+/*
+darkorange
+magenta
+deeppink
+lightgreen
+orangered
+gold
+skyblue
+*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	border-top: 9px solid deeppink;
+	font: 76%/162% 'Franklin Gothic Medium', sans-serif;
+}
+img
+{
+	border: 0;
+}
+a.rounded
+{
+	color: goldenrod;
+	background: black;
+	text-decoration: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+a.rounded span
+{
+	margin: -1px 1px;
+	padding: 0 2px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+a.rounded:hover
+{
+	color: black;
+	background: deeppink;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+a.rounded:hover span
+{
+	border-top: 1px solid deeppink;
+	border-bottom: 1px solid deeppink;
+}
+#corpus
+{
+	width: 800px;
+	position: absolute;
+	visibility: visible;
+	z-index: 4;
+}
+#yevvyCorpus
+{
+	visibility: visible;
+	position: absolute;
+	width: 274px;
+}
+#mannyCorpus
+{
+	visibility: visible;
+	position: absolute;
+	width: 274px;
+}
+#yevvyGlossary,
+#mannyGlossary,
+#yevvyContents,
+#mannyContents {
+	visibility: hidden;
+	position: absolute;
+	width: 274px;
+}
+#yevvyGlossary #glossaryTable {
+	width: 274px;
+}
+#blog
+{
+	position: absolute;
+	visibility: hidden;	
+	z-index: 9;
+}
+#toptabs
+{
+	padding: 0 3em 1ex 0;
+}
+#mannysDef
+{
+	float: left;
+	width: 380px;
+	text-align: center;
+}
+#mannysDef .lemma
+{
+	float: left;
+	margin-right: .5em;
+	width: 130px;
+	color: orangered;
+	text-align: right;
+}
+#mannysDef .def
+{
+	float: left;
+}
+#mannysDef .pos
+{
+	margin-right: .5em;
+	color: deeppink;
+}
+#ivo
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 9px;
+	border-top: 9px solid goldenrod;
+	overflow: hidden;
+}
+#aloysius
+{
+	color: mistyrose;
+	margin: 0 auto;
+	width: 800px;
+}
+#aloysius table
+{
+	margin: 0 auto;
+	width: 800px;
+}
+#aloysius .def
+{
+	color: lightgreen;
+}
+#amelia
+{
+	padding: 2ex 1em;
+	text-align: right;
+}
+#amelia select
+{
+	font: 86%/100% 'Franklin Gothic Medium', sans-serif;
+}
+.yellow
+{
+}
+.otterley
+{
+}
+.donimo
+{
+	color: skyblue;
+}
+.pandora
+{
+	padding: 1ex .5em;
+	width: 300px;
+	overflow: hidden;
+	border-right: 1px dashed deeppink;
+}
+.pandora a
+{
+	color: skyblue;
+	text-decoration: none;
+}
+.pandora a:hover
+{
+	color: lightgreen;
+	text-decoration: none;
+}
+#cecily
+{
+}
+.lorelei
+{
+	font-size: 120%;
+	color: goldenrod;
+	padding: .5ex 1em;
+	border-top: 1px dashed deeppink;
+	border-bottom: 1px dashed deeppink;
+	font-style: italic;
+}
+.beatrix
+{
+	color: skyblue;
+}
+input.matchbox
+{
+	margin-bottom: 1ex;
+	width: 180px;
+	font: 100%/100% 'Franklin Gothic Medium', sans-serif;
+}
+input.hotwheels
+{
+	margin-bottom: 1ex;
+	width: 30px;
+	font: 100%/100% 'Franklin Gothic Medium', sans-serif;
+}
+submit
+{
+	margin-bottom: 1ex;
+	font: 76%/100% 'Franklin Gothic Medium', sans-serif;
+}
+.dicLemma {
+	color: orangered;
+	font-weight: bold;
+}
+.dicPos {
+	color: deeppink;
+	font-weight: bold;
+}
+.dicLabel {
+}

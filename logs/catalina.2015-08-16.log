@@ -1,0 +1,38 @@
+Aug 16, 2015 6:57:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Aug 16, 2015 6:57:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 16, 2015 6:57:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 16, 2015 6:57:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 580 ms
+Aug 16, 2015 6:57:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 16, 2015 6:57:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+Aug 16, 2015 6:57:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/blojsom
+Aug 16, 2015 6:57:02 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocketJARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Aug 16, 2015 6:57:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/docs
+Aug 16, 2015 6:57:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/examples
+Aug 16, 2015 6:57:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/host-manager
+Aug 16, 2015 6:57:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/manager
+Aug 16, 2015 6:57:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/ROOT
+Aug 16, 2015 6:57:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/dunc/Documents/Tomcat/apache-tomcat-7.0.47/webapps/sumer
+Aug 16, 2015 6:57:04 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/string-1.1 is already defined
+Aug 16, 2015 6:57:04 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/string-1.1 is already defined
+Aug 16, 2015 6:57:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 16, 2015 6:57:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 16, 2015 6:57:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2473 ms

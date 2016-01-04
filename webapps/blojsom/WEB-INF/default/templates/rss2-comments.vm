@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- name="generator" content="$BLOJSOM_VERSION" -->
+<rss version="2.0">
+    <channel>
+        #foreach ($entry in $BLOJSOM_ENTRIES)
+        <title>$entry.getEscapedTitle()</title>
+        <link>$entry.getEscapedLink()</link>
+        <description>$entry.getEscapedDescription()</description>
+        <language>$BLOJSOM_BLOG.getBlogLanguage()</language>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>$BLOJSOM_VERSION</generator>
+        <pubDate>$BLOJSOM_DATE</pubDate>
+        <category>$entry.getEncodedCategory()</category>
+        <managingEditor>$BLOJSOM_BLOG.getBlogOwnerEmail()</managingEditor>
+        <webMaster>$BLOJSOM_BLOG.getBlogOwnerEmail()</webMaster>
+
+        #set ($comments = $BLOJSOM_PLUGIN_COLLECTION_UTILITIES.reverse($entry.getComments()))
+        #foreach ($entryComment in $comments)
+        <item>
+           <title>$entry.getEscapedTitle()</title>
+           <link>$entry.getEscapedLink()</link>
+           <description>$entryComment.getEscapedComment()</description>
+           <pubDate>$entryComment.getRFC822Date()</pubDate>
+           <author>$entryComment.getAuthorEmail()</author>
+        </item>
+        #end
+
+        #end
+    </channel>
+</rss>
+
+

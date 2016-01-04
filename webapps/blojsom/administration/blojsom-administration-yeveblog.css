@@ -1,0 +1,227 @@
+/* ----------------------------------------------------------------- */
+/* CSS AND DESIGN BY smallTransport.com */
+/* ----------------------------------------------------------------- */
+
+body
+{
+padding: 0;
+margin:0;
+font:.7em/1.6em  "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
+background: lavender;
+min-width: 800px;
+border-top: 9px solid deeppink;
+border-left: 9px solid deeppink;
+height: 100%;
+}
+
+a:link { color:#D41B2A; text-decoration:none; }
+a:hover { text-decoration: underline; }
+br {clear:both;}
+
+h1 {display: none;}
+
+h2 {
+clear: left;
+font:2em  "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
+font-weight: normal;
+margin:0; 
+padding:20px 0 0 0; }
+
+h3 {
+font-size: 1.3em;
+font-weight: normal;
+color:#3C657B;
+margin:0 0 10px 0;
+padding:0 0 10px 0;
+border-bottom: 1px dashed #A4AEB2;
+ }
+h4 {
+font-size: 1.1em;
+font-weight: normal;
+color:#584E37;
+margin:0 0 10px 0;
+padding:0; 
+}
+p { margin:10px 0 10px 0; color:333;}
+
+/* ----------------------------------------------------------------- */
+/* NAV AREA */
+/* ----------------------------------------------------------------- */
+
+ul#nav, ul#nav li ul
+{
+	padding: 0;
+	margin: 1ex 0;
+	list-style: none;
+}
+ul#nav li
+{
+	float: left;
+	position: relative;
+	width: 10em;
+	border-top: 1px solid deeppink;
+	border-right: 1px solid deeppink;
+	border-bottom: 1px solid deeppink;
+	background-color: black;
+	color: lavender;
+	text-align: center;
+	padding: .5em 0;
+}
+ul#nav li a
+{
+	display: block;
+	text-decoration: none;
+	color: lavender;
+}
+* html * ul#nav li ul li a
+{
+	padding: 1ex 0;
+	height: 5ex;
+}
+ul#nav li a:hover
+{
+	display: block;
+	text-decoration: none;
+	color: aquamarine;
+	background-color: #333333;
+}
+ul#nav li#winterfell
+{
+	border-left: 1px solid deeppink;
+}
+ul#nav li ul
+{
+	display: none;
+	position: absolute; 
+	top: 1em;
+	left: 0;
+	clear: left;
+	margin: .6em 0 0 -.1em;
+}
+* html ul#nav li ul
+{
+	margin: 1.8em 0 0 -.1em;
+}
+ul#nav li ul li
+{
+	float: left;
+	position: relative;
+	width: 9em;
+	border-top: 0;
+	border-right: 1px solid deeppink;
+	border-bottom: 1px solid deeppink;
+	border-left: 1px solid deeppink;
+	background-color: black;
+	color: lavender;
+	text-align: center;
+	padding: 1ex .5em;
+}
+* html * ul#nav li ul li
+{
+	width: 10.1em;
+	padding: 0;
+}
+ul#nav li > ul
+{
+	top: auto;
+	left: auto;
+}
+ul#nav li:hover, ul#nav li.over 
+{
+	background-color: #333333;
+	color: aquamarine;
+}
+ul#nav li:hover ul, ul#nav li.over ul
+{
+	display: block;
+}
+
+/* ----------------------------------------------------------------- */
+/* LOGIN BOX */
+/* ----------------------------------------------------------------- */
+
+div#login {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	padding:0 10px;
+	width:25%;
+	background-color: lavender;
+	border: 1px solid deeppink;
+	color: deeppink;
+}
+
+div#login a
+{
+	color: black;
+}
+
+/* ----------------------------------------------------------------- */
+/* MAIN CONTENT AREAS */
+/* ----------------------------------------------------------------- */
+
+div#wrap
+{
+	padding: 0;
+	margin: 9px 0 0 9px;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid deeppink;
+	border-left: 1px solid deeppink;
+}
+
+div#main {
+	height: 100px;
+	widthe: 100px;
+	background-image: url('/yevie/images/poopex.gif');
+	background-repeat: no-repeat;
+	margin: 60px 20px;
+}
+
+div#header {
+	display: none;
+	margin:0 20px;
+}
+
+div#contents {
+	float: left;
+	width:65%;
+}
+div.desc {
+	margin:0 0 20px 0;
+}
+div.mainClm {
+	padding: 10px;
+	margin: 0 0 10px 0;
+	border: double #A4AEB2;
+	background-color: #fff;
+
+}
+table td {
+	font:.7em/1.6em  "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
+	padding:2px 5px;
+	}
+
+table th{
+	font:.8em  "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
+	color:#fff;
+	background-color: #ADAE8C;
+	font-weight: bold;
+	text-align: left;
+	padding:5px 0 5px 5px;
+	}
+form input.small { width:100px; }
+
+/* ----------------------------------------------------------------- */
+/* SIDEBAR */
+/* ----------------------------------------------------------------- */
+
+#sidebar {
+	float: right;
+	margin-left: 0;
+	padding: 10px;
+  width: 25%;	
+  background-color: #F5F9DE;
+	border: 1px solid #ADAE8C;
+}

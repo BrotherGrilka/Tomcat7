@@ -1,0 +1,154 @@
+sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+.sIFR-replaced {
+	visibility: visible !important;
+}
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+.sIFR-flash + div[adblocktab=true] {
+  display: none !important;
+}
+.sIFR-hasFlash h1 {
+	visibility: hidden;
+	font-size: 144px;
+	color: chartreuse;
+	margin: 0 0 10px 0;
+}
+.sIFR-hasFlash h2 {
+	visibility: hidden;
+	font-size: 144px;
+	color: magenta;
+	margin: 0 0 10px 0;
+}
+.sIFR-hasFlash h3 {
+	visibility: hidden;
+	font-size: 144px;
+	color: dodgerblue;
+	margin: 0 0 10px 0;
+}
+.sIFR-hasFlash h4 {
+	visibility: hidden;
+	font-size: 144px;
+	color: gold;
+	margin: 0 0 10px 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	border-top: 9px solid orange;
+}
+#ivo {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 9px;
+	border-top: 9px solid deeppink;
+	overflow: hidden;
+}
+#aloysius {
+	margin: 4ex auto;
+	width: 900px;
+	height: 400px;
+}
+#watchlar {
+	text-align: right;
+	width: 200px;
+}
+#pandora {
+	text-align: left;
+	width: 200px;
+}
+.pinke {
+	color: magenta;
+}
+.pinke a {
+	color: magenta;
+	text-decoration: none;
+}
+.imageBox {
+	width: 200px;
+	color: yellowgreen;
+	text-align: right;
+	padding-bottom: 2ex;
+}
+.imageBox div {
+	color: orangered;
+	width: 100%;
+	text-align: left;
+	padding-left: 1em;
+}
+.imageBox img {
+	border: 1px dashed deeppink;
+}
+.imageBox a {
+	color: gold;
+	text-decoration: none;
+}
+#eperdu {
+	width: 400px;
+	padding: 2ex 2em;
+	position: relative;
+	border: 1px dashed orange;
+}
+#eperdu form {
+	position: relative;
+}
+#eperdu input {
+	background: black;
+	color: orange;
+	border: 1px dashed deeppink;
+}
+input#removerButton {
+	background: black;
+	border: 1px dashed deeppink;
+	margin-left: 180px;
+	width: 80px;
+}
+div.fakefile {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 240px;
+}
+div.fakefile input {
+	position: absolute;
+}
+div.fakefile input#browse {
+	opacity: 0;
+	-moz-opacity:0;
+	filter:alpha(opacity: 0);
+	z-index: 2;
+	text-align: left;
+	margin-left: 0;
+}
+div.fakefile input#fakeBrowse {
+	text-align: center;
+	width: 80px;
+	z-index: 1;
+	margin-left: 136px;
+}
+div.fakefile input#upload {
+	width: 80px;
+	margin-left: 156px;
+}
+#mannysInstructions {
+	color: skyblue;
+}
+#mannysRadio {
+	vertical-align: sub;
+}
+#satanRemover {
+}
+* html #satanRemover {
+	margin-top: 0;
+}

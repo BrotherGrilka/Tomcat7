@@ -1,0 +1,50 @@
+.contentsLinks {
+}
+.contentsLinks a {
+	font-size: 11px;
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 0 2px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.contentsLinks a:hover {
+	background-color: #D9E7F8;
+	border-top: 1px solid #99BBE8;
+	border-bottom: 1px solid #99BBE8;
+}
+	html, body {
+        font:normal 11px verdana;
+        margin:0;
+        padding:0;
+        border:0 none;
+        overflow:hidden;
+        height:100%;
+    }
+	p {
+	    margin:5px;
+	}
+    .settings {
+        background-image:url(../shared/icons/fam/folder_wrench.png);
+    }
+    .nav {
+        background-image:url(../shared/icons/fam/folder_go.png);
+    }
+#mannysDef {
+	margin: 8px;
+	height: 24px;
+}
+.lemma {
+//	color: skyblue;
+	float: left;
+	font-weight: bold;
+}
+.def {
+//	color: goldenrod;
+	float: left;
+}
+.pos {
+//	color: ivory;
+	margin: 0 4px;
+}

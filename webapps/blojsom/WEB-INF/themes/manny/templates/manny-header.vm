@@ -1,0 +1,6 @@
+
+			<div id="header">
+				<div id="name">
+					<a href="$BLOJSOM_BLOG.getBlogURL()" title="$BLOJSOM_BLOG.getBlogName()">$BLOJSOM_BLOG.getBlogName()</a>
+				</div>
+			</div>

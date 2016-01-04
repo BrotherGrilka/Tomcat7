@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<solarsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="solarsysxtem.xsd">
+    
+    <planet>Mercury
+    
+        <images>
+            <image>images/jpl/Mercury/mercury.jpg</image>
+        </images>
+        
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">0.39</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbital Period">88.0</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">58.6</siderealrotationperiod>
+            <inclination label="Inclination">7.00</inclination>
+            <axialtilt label="Axial Tilt">0.0</axialtilt>
+            <equatorialradius label="Equatorial Radius">2440</equatorialradius>
+            <mass label="Mass">3.30 x 10^23</mass>
+            <surfacegravity label="Surface Gravity">3.70</surfacegravity>
+            <escapespeed label="Escape Speed">4.2</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">100-700</meansurfacetemperature>
+        </stats>
+       
+        <atmosphere label="Atmosphere">
+        	<component>sodium</component>
+        	<component>potassium</component>
+        </atmosphere>
+    	
+    	<magneticfield label="Magnetic Field">
+            <surfacemagneticfield label="Surface Magnetic Field">0.011</surfacemagneticfield>
+			<magneticaxistilt label="Magnetic Axis Tilt">&lt; 10</magneticaxistilt>
+    	</magneticfield>
+
+    	<funfacts>
+    		<resonance>
+    			<bondmate>Sun</bondmate>
+    			<ratio>3:2</ratio>
+    		</resonance>
+    	</funfacts>
+    	
+    </planet>
+    
+    <planet nickname="Fiery Sister" retrograde="yes" volcanism="yes">Venus
+
+        <images>
+            <image>images/jpl/Venus/venus.jpg</image>
+        </images>
+        
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">0.72</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">224.7</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">-243.0</siderealrotationperiod>
+            <inclination label="Inclination">3.39</inclination>
+            <axialtilt label="Axial Tilt">177.4</axialtilt>
+            <equatorialradius label="Equatorial Radius">6052</equatorialradius>
+            <mass label="Mass">4.87 x 10^24</mass>
+            <surfacegravity label="Surface Gravity">8.87</surfacegravity>
+            <escapespeed label="Escape Speed">10.4</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">730</meansurfacetemperature>
+        </stats>
+        
+        <atmosphere label="Atmosphere">
+          	<component>sulfuric acid</component>
+        	<component>carbon dioxide</component>
+        	<component>nitrogen</component>
+        	<component>helium</component>
+        	<component>neon</component>
+        	<component>argon</component>
+        </atmosphere>
+    	
+    	<magneticfield label="Magnetic Field">
+            <surfacemagneticfield label="Surface Magnetic Field">&lt; 0.001</surfacemagneticfield>
+			<magneticaxistilt label="Magnetic Axis Tilt"></magneticaxistilt>
+    	</magneticfield>
+    	
+    	<funfacts>
+    		<resonance>
+    			<bondmate>Earth</bondmate>
+    			<ratio>unknown</ratio>
+    		</resonance>
+    	</funfacts>
+    	
+    </planet>
+    
+    <planet nickname="Our Home Amongst the Stars" volcanism="yes">Earth
+    
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">1.00</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">1.000038</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">0.9973</siderealrotationperiod>
+            <inclination label="Inclination">0.01</inclination>
+            <axialtilt label="Axial Tilt">23.45</axialtilt>
+            <equatorialradius label="Equatorial Radius">6378</equatorialradius>
+            <mass label="Mass">5.97 x 10^24</mass>
+            <surfacegravity label="Surface Gravity">9.80</surfacegravity>
+            <escapespeed label="Escape Speed">11.2</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">290</meansurfacetemperature>
+        </stats>
+        
+        <atmosphere label="Atmosphere">
+        	<component>nitrogen</component>
+        	<component>oxygen</component>
+        	<component>carbon dioxide</component>
+        	<component>ozone</component>
+        	<component>argon</component>
+        	<component>helium</component>
+        </atmosphere>
+        
+    	<magneticfield label="Magnetic Field">
+            <surfacemagneticfield label="Surface Magnetic Field">1.0</surfacemagneticfield>
+			<magneticaxistilt label="Magnetic Axis Tilt">11.5</magneticaxistilt>
+    	</magneticfield>
+    	
+        <moonsystem label="Moon System">
+            <moon>Moon</moon>
+        </moonsystem>
+        
+    	<funfacts>
+    		<resonance>
+    			<bondmate>Venus</bondmate>
+    			<ratio>unknown</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Moon</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    	</funfacts>
+    
+    </planet>
+    
+    <planet nickname="The Red Planet">Mars
+
+        <images>
+            <image>images/jpl/Mars/mars.jpg</image>
+            <image>images/jpl/Mars/hemis1_june01.jpg</image>
+            <image>images/jpl/Mars/hemis2_june01.jpg</image>
+            <image>images/jpl/Mars/Mars_earlyMay02.jpg</image>            
+            <image>images/jpl/Mars/mars2001duststorms50.jpg</image>        
+        </images>
+        
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">1.52</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">686.9</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">1.026</siderealrotationperiod>
+            <inclination label="Inclination">1.85</inclination>
+            <axialtilt label="Axial Tilt">23.98</axialtilt>
+            <equatorialradius label="Equatorial Radius">3394</equatorialradius>
+            <mass label="Mass">6.42 x 10^23</mass>
+            <surfacegravity label="Surface Gravity">3.72</surfacegravity>
+            <escapespeed label="Escape Speed">5.0</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">210</meansurfacetemperature>
+        </stats>        
+        
+        <atmosphere label="Atmosphere">
+        	<component>carbon dioxide</component>
+        	<component>nitrogen</component>
+        	<component>argon</component>
+        	<component>oxygen</component>
+        	<component>water vapor</component>
+        </atmosphere>
+    	
+        <magneticfield label="Magnetic Field">
+        	<surfacemagneticfield label="Surface Magnetic Field">0.00125</surfacemagneticfield>
+        	<magneticaxistilt label="Magnetic Axis Tilt"></magneticaxistilt>
+        </magneticfield>
+    	
+        <moonsystem label="Moon System">
+            <moon>Phobos</moon>
+            <moon>Deimos</moon>
+        </moonsystem>
+            
+    	<funfacts></funfacts>
+    	
+    </planet>
+    
+    <planet nickname="Solar Giant">Jupiter
+ 
+        <images>
+            <image>images/jpl/Jupiter/europacallisto.jpg</image>
+            <image>images/jpl/Jupiter/inset-jupiter.jpg</image>
+            <image>images/jpl/Jupiter/iojupiter.jpg</image>            
+            <image>images/jpl/Jupiter/PIA02873_sm.jpg</image>        
+        </images>
+
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">5.20</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">11.86</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">0.41</siderealrotationperiod>
+            <inclination label="Inclination">1.31</inclination>
+            <axialtilt label="Axial Tilt">3.08</axialtilt>
+            <equatorialradius label="Equatorial Radius">71492</equatorialradius>
+            <mass label="Mass">1.90 x 10^27</mass>
+            <surfacegravity label="Surface Gravity">24.8</surfacegravity>
+            <escapespeed label="Escape Speed">59.5</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">124</meansurfacetemperature>
+        </stats>
+        
+        <atmosphere label="Atmosphere">
+        	<component>helium</component>
+        	<component>hydrogen</component>
+        	<component>water</component>
+        	<component>ammonia</component>
+        	<component>methane</component>
+        	<component>carbon compounds</component>
+        	<core>liquid metallic hydrogen</core>
+        </atmosphere>
+        
+    	<magneticfield label="Magnetic Field">
+    		<surfacemagneticfield label="Surface Magnetic Field">13.89</surfacemagneticfield>
+    		<magneticaxistilt label="Magnetic Axis Tilt">9.6</magneticaxistilt>
+    	</magneticfield>
+    	
+        <moonsystem label="Moon System">
+            <moon>Metis</moon>
+            <moon>Adrastea</moon>
+            <moon>Amalthea</moon>
+            <moon>Thebe</moon>
+            <moon volcanism="yes">Io
+            	<resonance>
+            		<bondmate>Europa</bondmate>
+            		<bondmate>Ganymede</bondmate>
+            		<ratio>1:2:4</ratio>
+            	</resonance>
+            </moon>
+            <moon>Europa
+            	<resonance>
+            		<bondmate>Io</bondmate>
+            		<bondmate>Ganymede</bondmate>
+            		<ratio>1:2:4</ratio>
+            	</resonance>
+            </moon>
+            <moon>Ganymede
+            	<resonance>
+            		<bondmate>Io</bondmate>
+            		<bondmate>Europa</bondmate>
+            		<ratio>1:2:4</ratio>
+            	</resonance>
+            </moon>
+            <moon>Callisto</moon>
+            <moon>Leda</moon>
+            <moon>Himalia</moon>
+            <moon>Lysithea</moon>
+            <moon>Elara</moon>
+            <moon>Ananke</moon>
+            <moon>Carme</moon>
+            <moon>Pasiphae</moon>
+            <moon>Sinope</moon>
+        </moonsystem>
+            
+        <ringsystem>
+        	<ring>Halo Ring
+        		<innerradius>1.29</innerradius>
+        		<outerradius>1.72</outerradius>
+        		<width>30,500</width>
+        	</ring>
+        	<ring>Main Ring
+        		<innerradius>1.72</innerradius>
+        		<outerradius>1.81</outerradius>
+        		<width>6,440</width>
+        	</ring>
+        	<ring>Amalthea Gossmamer Ring
+        		<innerradius>1.81</innerradius>
+        		<outerradius>2.54</outerradius>
+        		<width>58,500</width>
+        	</ring>
+        	<ring>Thebe Gossamer Ring
+        		<innerradius>2.54</innerradius>
+        		<outerradius>3.11</outerradius>
+        		<width>41,000</width>
+        	</ring>
+        </ringsystem>
+        
+    	<funfacts>
+    		<planetaryphenomena>Io Plasma Torus</planetaryphenomena>
+    		<resonance>
+    			<bondmate>Io</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Europa</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Ganymede</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Callisto</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    	</funfacts>
+    	
+    </planet>
+    
+    <planet nickname="Ringed Angel of the Heavens">Saturn
+        
+        <images>
+            <image>images/jpl/Saturn/enceladus.jpg</image>
+            <image>images/jpl/Saturn/atlaspandorajanus.jpg</image>
+            <image>images/jpl/Saturn/saturn.jpg</image>            
+            <image>images/jpl/Saturn/shepherd.jpg</image>        
+        </images>
+        
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">9.54</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">29.42</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">0.44</siderealrotationperiod>
+            <inclination label="Inclination">2.49</inclination>
+            <axialtilt label="Axial Tilt">26.73</axialtilt>
+            <equatorialradius label="Equatorial Radius">60268</equatorialradius>
+            <mass label="Mass">5.68 x 10^26</mass>
+            <surfacegravity label="Surface Gravity">10.4</surfacegravity>
+            <escapespeed label="Escape Speed">35.5</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">97</meansurfacetemperature>
+        </stats>
+        
+        <atmosphere label="Atmosphere">
+           	<component>hydrogen</component>
+	       	<component>helium</component>
+          	<component>methane</component>
+          	<component>ammonia</component>
+        	<core>metallic hydrogen</core>
+        </atmosphere>
+        
+    	<magneticfield label="Magnetic Field">
+    		<surfacemagneticfield label="Surface Magnetic Field">0.67</surfacemagneticfield>
+    		<magneticaxistilt label="Magnetic Axis Tilt">0.8</magneticaxistilt>
+    	</magneticfield>
+    	
+        <moonsystem label="Moon System">
+            <moon>Pan</moon>
+            <moon>Atlas</moon>
+            <moon>Prometheus
+            	<resonance>
+            		<bondmate>F Ring</bondmate>
+            		<ratio>unknown</ratio>
+            	</resonance>
+            </moon>
+            <moon>Pandora
+            	<resonance>
+            		<bondmate>F Ring</bondmate>
+            		<ratio>unknown</ratio>
+            	</resonance>
+            </moon>
+            <moon>Epimetheus
+            	<resonance>
+            		<bondmate>Janus</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>0</degrees>
+            	</resonance>
+            </moon>
+            <moon>Janus
+            	<resonance>
+            		<bondmate>Epimetheus</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>0</degrees>
+            	</resonance>
+            </moon>
+            <moon>Mimas
+        		<resonance>
+        			<bondmate>Cassini Division</bondmate>
+        			<ratio>2:1</ratio>
+        		</resonance>
+            </moon>
+            <moon>Enceladus</moon>
+            <moon>Tethys
+            	<resonance>
+            		<bondmate>Telesto</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>-60</degrees>
+            	</resonance>
+            	<resonance>
+            		<bondmate>Calypso</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>60</degrees>
+            	</resonance>
+            </moon>
+            <moon>Telesto
+            	<resonance>
+            		<bondmate>Tethys</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>60</degrees>
+            	</resonance>
+            	<resonance>
+            		<bondmate>Calypso</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>120</degrees>
+            	</resonance>
+            </moon>
+            <moon>Calypso
+            	<resonance>
+            		<bondmate>Telesto</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>-120</degrees>
+            	</resonance>
+            	<resonance>
+            		<bondmate>Tethys</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>-60</degrees>
+            	</resonance>
+            </moon>
+            <moon>Dione
+            	<resonance>
+            		<bondmate>Helene</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>-060</degrees>
+            	</resonance>
+            </moon>
+            <moon>Helene
+            	<resonance>
+            		<bondmate>Dione</bondmate>
+            		<ratio>1:1</ratio>
+            		<degrees>60</degrees>
+            	</resonance>
+            </moon>
+            <moon>Rhea</moon>
+            <moon>Titan</moon>
+            <moon>Hyperion
+            	<resonance>
+            		<bondmate>Titan</bondmate>
+            		<bondmate>Saturn</bondmate>
+            		<ratio>chaotic</ratio>
+            	</resonance>
+            	
+            </moon>
+            <moon>Iapetus</moon>
+            <moon retrograde="yes">Phoebe</moon>
+        </moonsystem>
+            
+        <ringsystem>
+        	<ring>D
+        		<innerradius>1.11</innerradius>
+        		<outerradius>1.24</outerradius>
+        		<width>7,700</width>
+        	</ring>
+        	<ring>C
+        		<innerradius>1.24</innerradius>
+        		<outerradius>1.53</outerradius>
+        		<width>17,300</width>
+        	</ring>
+        	<ring>B
+        		<innerradius>1.53</innerradius>
+        		<outerradius>1.95</outerradius>
+        		<width>25,500</width>
+        	</ring>
+        	<ring>Cassini Division
+        		<innerradius>1.95</innerradius>
+        		<outerradius>2.03</outerradius>
+        		<width>4,800</width>
+        		<resonance>
+        			<bondmate>Mimas</bondmate>
+        			<ratio>2:1</ratio>
+        		</resonance>
+        	</ring>
+        	<ring>A
+        		<innerradius>2.03</innerradius>
+        		<outerradius>2.27</outerradius>
+        		<width>14,500</width>
+        		<resonance>
+        			<bondmate>Atlas</bondmate>
+        			<ratio>unknown</ratio>
+        		</resonance>
+        	</ring>
+        	<ring>Encke Gap
+        		<innerradius>2.22</innerradius>
+        		<outerradius>2.22</outerradius>
+        		<width>300</width>
+        	</ring>
+        	<ring>F
+        		<innerradius>2.33</innerradius>
+        		<outerradius>2.33</outerradius>
+        		<width>100</width>
+        		<resonance>
+        			<bondmate>Prometheus</bondmate>
+        			<bondmate>Pandora</bondmate>
+        			<ratio>unknown</ratio>
+        		</resonance>
+        	</ring>
+        	<ring>E
+        		<innerradius>3.00</innerradius>
+        		<outerradius>8.00</outerradius>
+        		<width>300,000</width>
+        	</ring>
+        </ringsystem>
+    
+    	<funfacts>
+    		<resonance>
+    			<bondmate>Mimas</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Enceladus</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Tethys</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Dione</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    		<resonance>
+    			<bondmate>Rhea</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    	</funfacts>
+    	
+    </planet>
+    
+    <planet retrograde="yes">Uranus
+       
+        <images>
+            <image>images/jpl/Uranus/uranus_true_sm.jpg</image>
+        </images>
+        
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">19.19</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">83.75</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">-0.72</siderealrotationperiod>
+            <inclination label="Inclination">0.77</inclination>
+            <axialtilt label="Axial Tilt">97.92</axialtilt>
+            <equatorialradius label="Equatorial Radius">25559</equatorialradius>
+            <mass label="Mass">8.68 x 10^25</mass>
+            <surfacegravity label="Surface Gravity">8.87</surfacegravity>
+            <escapespeed label="Escape Speed">21.3</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">58</meansurfacetemperature>
+        </stats>        
+        
+        <atmosphere label="Atmosphere">
+           	<component>hydrogen</component>    
+        	<component>helium</component>
+        	<component>methane</component>
+        </atmosphere>
+        
+    	<magneticfield label="Magnetic Field">
+    		<surfacemagneticfield label="Surface Magnetic Field">0.74</surfacemagneticfield>
+    		<magneticaxistilt label="Magnetic Axis Tilt">58.6</magneticaxistilt>
+    	</magneticfield>
+    	
+        <moonsystem label="Moon System">
+            <moon>Cordelia</moon>
+            <moon>Ophelia</moon>
+            <moon>Bianca</moon>
+            <moon>Cressida</moon>
+            <moon>Desdemona</moon>
+            <moon>Juliet</moon>
+            <moon>Portia</moon>
+            <moon>Rosalind</moon>
+            <moon>Belinda</moon>
+            <moon>Puck</moon>
+            <moon>Miranda</moon>
+            <moon>Ariel</moon>
+            <moon>Umbriel</moon>
+            <moon>Titania</moon>
+            <moon>Oberon</moon>
+        </moonsystem>
+        
+        <ringsystem></ringsystem>    
+    
+    	<funfacts></funfacts>
+    	
+    </planet>
+    
+    <planet>Neptune
+        
+        <images>
+            <image>images/jpl/Neptune/neptune_sm.jpg</image>
+        </images>
+        
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">30.07</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">163.7</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">0.67</siderealrotationperiod>
+            <inclination label="Inclination">1.77</inclination>
+            <axialtilt label="Axial Tilt">29.6</axialtilt>
+            <equatorialradius label="Equatorial Radius">24766</equatorialradius>
+            <mass label="Mass">1.02 x 10^26</mass>
+            <surfacegravity label="Surface Gravity">11.14</surfacegravity>
+            <escapespeed label="Escape Speed">23.5</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">59</meansurfacetemperature>
+        </stats>
+        
+        <atmosphere label="Atmosphere">
+        	<component>hydrogen</component>    
+        	<component>helium</component>
+        	<component>methane</component>
+        </atmosphere>
+        
+    	<magneticfield label="Magnetic Field">
+    		<surfacemagneticfield label="Surface Magnetic Field">0.43</surfacemagneticfield>
+    		<magneticaxistilt label="Magnetic Axis Tilt">46.0</magneticaxistilt>
+    	</magneticfield>
+    	
+        <moonsystem label="Moon System">
+            <moon>Naiad</moon>
+            <moon>Thalassa</moon>
+            <moon>Despina</moon>
+            <moon>Galatea</moon>
+            <moon>Larissa</moon>
+            <moon>Proteus</moon>
+            <moon retrograde="yes">Triton</moon>
+            <moon>Nereid</moon>
+        </moonsystem>
+        
+        <ringsystem></ringsystem>
+    
+    	<funfacts></funfacts>
+    	
+    </planet>
+    
+    <minorplanet retrograde="yes">Pluto
+    	
+        <stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">39.48</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">248.0</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">-6.387</siderealrotationperiod>
+            <inclination label="Inclination">17.15</inclination>
+            <axialtilt label="Axial Tilt">118</axialtilt>
+            <equatorialradius label="Equatorial Radius">1137</equatorialradius>
+            <mass label="Mass">1.27 x 10^22</mass>
+            <surfacegravity label="Surface Gravity">0.66</surfacegravity>
+            <escapespeed label="Escape Speed">1.2</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">40-60</meansurfacetemperature>
+        </stats>
+        
+    	<atmosphere label="Atmosphere"></atmosphere>
+    	
+    	<magneticfield label="Magnetic Field">
+            <surfacemagneticfield label="Surface Magnetic Field">unknown</surfacemagneticfield>
+    		<magneticaxistilt label="Magnetic Axis Tilt">unknown</magneticaxistilt>
+    	</magneticfield>
+        
+    	<moonsystem label="Moon System">
+            <moon>Charon
+            	<resonance>
+            		<bondmate>Pluto</bondmate>
+            		<ratio>1:1</ratio>
+            	</resonance>
+            </moon>
+        </moonsystem>
+    	
+    	<funfacts>
+    		<resonance>
+    			<bondmate>Charon</bondmate>
+    			<ratio>1:1</ratio>
+    		</resonance>
+    	</funfacts>
+    
+    </minorplanet>
+    
+    <minorplanet>Sedna
+    
+    	<stats label="Planetary Info">
+            <orbitalsemimajoraxis label="Orbital Semi-Major Axis">85.36</orbitalsemimajoraxis>
+            <siderealorbitalperiod label="Sidereal Orbiital Period">10500</siderealorbitalperiod>
+            <siderealrotationperiod label="Sidereal Rotation Period">unknown</siderealrotationperiod>
+            <inclination label="Inclination">unknown</inclination>
+            <axialtilt label="Axial Tilt">unknown</axialtilt>
+            <equatorialradius label="Equatorial Radius">800-1100</equatorialradius>
+            <mass label="Mass">unknown</mass>
+            <surfacegravity label="Surface Gravity">unknown</surfacegravity>
+            <escapespeed label="Escape Speed">unknown</escapespeed>
+            <meansurfacetemperature label="Mean Surface Temperature">as low as 44</meansurfacetemperature>
+        </stats>
+        
+    	<atmosphere label="Atmosphere"></atmosphere>
+    	
+    	<magneticfield label="Magnetic Field">
+    		<surfacemagneticfield label="Surface Magnetic Field">unknown</surfacemagneticfield>
+    		<magneticaxistilt label="Magnetic Axis Tilt">unknown</magneticaxistilt>
+    	</magneticfield>
+		
+    	<funfacts></funfacts>
+    
+    </minorplanet>
+    
+    <icyrocks>Asteroid Belt
+    </icyrocks>
+
+    <icyrocks>Kuiper Belt
+    </icyrocks>
+    
+    <icyrocks>Oort Cloud
+    </icyrocks>
+
+	<solarmisc>
+		<comets></comets>
+		<centaurs>
+			<planetoid>Chiron
+				<resonance>
+					<bondmate>Jupiter</bondmate>
+					<ratio>unknown</ratio>
+					<degrees>unknown</degrees>
+				</resonance>
+			</planetoid>
+			<planetoid>Nessus</planetoid>
+			<planetoid>Asbolus</planetoid>
+			<planetoid>Chariklo</planetoid>
+			<planetoid>Hylonome</planetoid>
+		</centaurs>
+	</solarmisc>
+    
+	<credits></credits>
+	
+</solarsystem>
